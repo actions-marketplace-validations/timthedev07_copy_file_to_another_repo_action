@@ -24,7 +24,7 @@ git clone --single-branch --branch $INPUT_DESTINATION_BRANCH "https://x-access-t
 
 echo "Copying contents to git repo"
 mkdir -p $CLONE_DIR/
-cp -a "$INPUT_SOURCE_FILE" "$CLONE_DIR/"
+cp -a "$INPUT_SOURCE_FILE/." "$CLONE_DIR/"
 cd "$CLONE_DIR"
 
 if [ ! -z "$INPUT_DESTINATION_BRANCH_CREATE" ]
