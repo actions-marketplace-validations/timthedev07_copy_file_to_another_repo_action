@@ -1,4 +1,4 @@
-name: 'Push a file to another repository'
+name: 'Push files to another repository'
 description: 'Used for pushing a copy of a file to another repository'
 inputs:
   source_file:
